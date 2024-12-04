@@ -1,0 +1,1082 @@
+@font-face{
+    font-family: "Clash Display";
+    src: url("../clash/ClashDisplay-Regular.otf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Wet+Paint&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+}
+
+ul{
+    padding-left: 0px !important;
+}
+
+/* common-sec */
+
+.cmn-btn{
+    text-decoration: none;
+    padding: 16px 52px;
+    background-color: rgba(122, 50, 19, 1);
+    border-radius: 40px;
+        font-family: "Clash Display";
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        line-height: 28px;
+}
+
+.btn-img{
+    margin-left: 5px;
+    background-color: transparent;
+}
+
+
+
+/* header-sec */
+
+@media (max-width:1200px) and (min-width:992px){
+    .banner-child-div h1{
+        font-size: 80px !important;
+        /* line-height: 70px !important; */
+    }
+    .nav-child-div ul li{
+        padding: 0px 8px !important;
+    }
+    
+    .nav-child-div ul li a{
+        font-size: 12px !important;
+    }
+    
+    .nav-icon-1{
+        margin-right: 10px !important;
+    }
+    .head{
+      
+        font-size: 70px !important;
+    }
+    
+    .banner-img{
+        margin-left: -0px !important; 
+    }
+
+}
+@media (max-width:991px) and (min-width:768px){
+    .nav-child-div{
+        text-align: center !important;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-child-div ul li{
+        padding: 0px 8px !important;
+    }
+    .banner-img{
+        margin-left: -0px !important; 
+    }
+    .Filters{
+        margin: -560px 0px 0px 470px !important;
+    }
+}
+
+@media (max-width:767px) and (min-width:575px){
+    .banner-img{
+        margin-left: -0px !important; 
+    }
+    .banner-child-div h1{
+        font-size: 80px !important;
+    }
+    .head{
+      
+        font-size: 70px !important;
+    }
+    .Filters{
+        margin: -470px 0px 0px 310px !important;
+    }
+    .banner-child-div p::before{
+        margin: 55px 0px 0px 445px !important;
+    }
+}
+
+@media (max-width:575px) and (min-width:01px){
+    
+.banner-child-div h1{
+    font-size: 50px !important;
+    line-height: 70px !important;
+}
+.banner-child img{
+    margin-top: 20px;
+}
+.banner-img{
+    margin-left: -0px !important; 
+}
+.banner-child-div h1{
+    font-size: 30px !important;
+    line-height: 50px !important;
+}
+.head{
+  
+    font-size: 30px !important;
+}
+.cmn-btn{
+    padding: 10px 22px !important;
+        font-size: 12px !important;
+
+}
+
+.btn-img{
+    margin-left: 0px !;
+    background-color: transparent;
+}
+.Filters{
+    margin: -280px 0px 0px 198px !important;
+  
+        width: 100px !important;
+        height: 120px !important;
+    
+}
+.banner-child-div p::before{
+    margin: 55px 0px 0px 283px !important;
+}
+}
+
+.header-sec{
+    background-image: url('../image/banner.svg'), linear-gradient(to right, rgba(235, 176, 117, 1), rgba(122, 88, 61, 1));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar{
+    display: none;
+}
+
+.nav-bar1{
+    display: none;
+}
+
+@media (max-width:767px) and (min-width:01px){
+    .nav{
+        display: none !important;
+    }
+    .nav-bar{
+        display: block;
+    }
+    .number{
+        margin: 76px 0px 0px 0px !important;
+    }
+    .number i{
+        margin: 0px 5px !important;
+    }
+}
+
+/* @media (max-width:575px) and (min-width:01px){} */
+    
+
+.nav-sec{
+    padding: 31px 0px;
+}
+
+.nav-child-div ul li{
+    list-style: none;
+    padding: 0px 12px;
+}
+
+.nav-child-div ul li a{
+    text-decoration: none;
+    font-family: "Clash Display";
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 28px;
+}
+
+.nav-icon-1{
+    color: #ffffff;
+    margin-right: 30px;
+}
+
+.nav-icon-2{
+    color: #ffffff;
+    margin-right: 11px;
+}
+
+.nav-btn{
+    padding: 14px 34px;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: "Clash Display";
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.nav-main-div::after{
+    content: "";
+    display: inline-block;
+    height: 1px ;
+    width: 100%;
+    background: linear-gradient(to right, rgba(152, 129, 106, 0), rgba(166, 123, 91, 1), rgba(254, 216, 177, 0));
+    border-radius: 50px;
+    margin-top: 4px;
+}
+
+
+/* banner-sec */
+
+.nav-line{
+    position:relative;
+    margin-bottom: 100px;
+}
+
+.banner-sec{
+    padding: 90px 0px 75px 0px;
+}
+
+.banner-child-div h1{
+    font-family: "Clash Display";
+    font-size: 106px;
+    font-weight: 400;
+    color: #ffffff;
+    max-width: 657px;
+    line-height: 125.1px;
+    z-index: 99;
+    position: relative;
+}
+
+.banner-child img{
+    width: 100%;
+}
+
+.banner-child-div p{
+    font-family: "Clash Display";
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(154, 154, 154, 1);
+    max-width: 600px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.head{
+    display: block;
+    font-size: 102px ;
+}
+
+.banner-img{
+    margin-left: -125px; 
+}
+
+.Scroll{
+    display: block;
+    font-family: "Clash Display";
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 28px;
+    padding: 80px 0px 0px 0px;
+}
+
+.number{
+    margin: 76px 0px 0px 200px;
+}
+
+.number a{
+    text-decoration: none;
+    font-family: "Clash Display";
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.number i{
+    color: rgba(166, 123, 91, 1);
+    font-size: 25px;
+    margin: 0px 9px;
+}
+
+.Filters{
+    width: 183px;
+    height: 203px;
+    background-color: #ffffff;
+    padding: 20px 16px;
+    text-align: center;
+    border-radius: 25px;
+    position: absolute;
+    margin: -437px 0px 0px 215px;
+}
+
+.banner-child-div h1::before{
+    content: "";
+    position: absolute;
+    background-image: url('../image/STARS-1.svg');
+    width: 30px;
+    height: 30px;
+    margin: 17px 0px 0px 287px;
+}
+
+.banner-child-div p::before{
+    content: "";
+    position: absolute;
+    background-image: url('../image/Stars-2.svg');
+    width: 30px;
+    height: 30px;
+    margin: 30px 0px 0px 445px;
+}
+
+/* About-sec */
+
+@media (max-width:1200px) and (min-width:992px){
+    .About-main-div{
+        flex-wrap: wrap;
+    }
+    
+.About-top-div h2{
+    margin-left: 260px !important;
+}
+
+    .Aboutchild-div{
+        width: 50% !important;
+    }
+    .About-img{
+        position: relative;
+        transform: translateY(20px) !important;
+    }
+    .About-sec{
+        padding-bottom: 100px !important;
+    }
+    .About{
+        margin: 60px 0px 0px -20px !important;
+    }
+}
+@media (max-width:991px) and (min-width:768px){
+    .About-main-div{
+        flex-wrap: wrap;
+    }
+    .About-top-div h2{
+        margin-left: 60px !important;
+    }
+
+    .Aboutchild-div{
+        width: 100% !important;
+    }
+    .About-img{
+        position: relative;
+        transform: translateY(150px) !important;
+    }
+    .About-sec{
+        padding-bottom: 250px !important;
+    }
+    .About{
+        margin: 60px 0px 0px -20px !important;
+    }
+}
+
+@media (max-width:767px) and (min-width:575px){
+    .About-main-div{
+        flex-wrap: wrap;
+    }
+    .About-top-div h2{
+        margin-left: 60px !important;
+    }
+
+    .Aboutchild-div{
+        width: 100% !important;
+    }
+    .About-img{
+        position: relative;
+        transform: translateY(150px) !important;
+    }
+    .About-sec{
+        padding-bottom: 250px !important;
+    }
+    .About{
+        margin: 60px 0px 0px -20px !important;
+    }
+}
+
+@media (max-width:575px) and (min-width:01px){
+    .About-main-div{
+        flex-wrap: wrap;
+    }
+    .About-top-div h2{
+        margin-left: 60px !important;
+    }
+
+    .Aboutchild-div{
+        width: 100% !important;
+    }
+    .About-img{
+        position: relative;
+        transform: translateY(170px) !important;
+    }
+    .About-sec{
+        padding-bottom: 250px !important;
+    }
+    .About{
+        margin: 60px 0px 0px -20px !important;
+    }
+    .Aboutchild-div img{
+        width: 100%;
+    }
+    .btn-img{
+        width: 20px !important;
+    }
+    .About-top-div h2{
+        font-size: 60px !important;
+    }
+    .About-top-div p{
+        padding-left: 50px !important;
+    }
+}
+
+.About-sec{
+    background-color: rgba(47, 42, 39, 1);
+}
+
+.About-main-div{
+    padding-top: 40px;
+   
+}
+
+.About-top-div h2{
+    margin-left: 487px;
+    font-family: "Clash Display";
+    font-size: 91px;
+    font-weight: 400;
+    color: white;
+    line-height: 109px;
+    z-index: 99;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    display: inline-block;
+}
+
+.About-top-div h2 span{
+    margin-right: 15px;
+    font-family: "Clash Display";
+    font-size: 30px !important;
+    font-weight: 400;
+    color: white;
+    line-height: 40px !important;
+}
+
+.About-top-div p{
+    font-family: "Clash Display";
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    line-height: 40px ;
+    max-width: 430px;
+    padding-left: 120px;
+}
+
+.About-img{
+    position: relative;
+    transform: translateY(-236px);
+}
+
+.Aboutchild-div p{
+    font-family: "Clash Display";
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(154, 154, 154, 1);
+    line-height: 28px ;
+    max-width: 345px;
+    margin:110px 0px 0px -35px;
+}
+
+.About{
+    position: absolute;
+    margin: 160px 0px 0px 230px;
+    display: inline-block;
+}
+
+/* Services-sec */
+
+@media (max-width:1200px) and (min-width:992px){
+    .Services-main-div{
+        flex-wrap: wrap;
+    }
+
+    .Services-child-div{
+        width: 100% !important;
+    }
+    .View{
+        margin-top: -100px !important;
+        right: 171px;
+    }
+}
+@media (max-width:991px) and (min-width:768px){
+    .Services-main-div{
+        flex-wrap: wrap;
+    }
+
+    .Services-child-div{
+        width: 100% !important;
+    }
+    .View{
+        margin-top: -100px !important;
+        right: 171px;
+    }
+}
+
+@media (max-width:767px) and (min-width:575px){
+  .Services-inner{
+    margin-bottom: 20px;
+  }
+  .View{
+    margin-top: -100px !important;
+    right: 171px;
+}
+}
+
+@media (max-width:575px) and (min-width:01px){
+    .Services-inner{
+        margin-bottom: 20px;
+      }
+      .Services-top-div h2{
+        font-size: 60px !important;
+      }
+      .View{
+        margin-top: -150px !important;
+        right: 171px;
+    }
+}
+
+
+.Services-sec{
+    background-color: rgba(47, 42, 39, 1);
+    padding: 94px 0px 57px 0px ;
+}
+
+.Services{
+    margin: 122px 0px 0px 90px;
+    display: inline-block;
+}
+
+.Services-top-div h2{
+    margin-bottom: 108px;
+    font-family: "Clash Display";
+    font-size: 91px;
+    font-weight: 400;
+    color: white;
+    line-height: 109px;
+    z-index: 99;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    display: inline-block;
+}
+
+.Services-top-div h2 span{
+    margin-right: 15px;
+    font-family: "Clash Display";
+    font-size: 30px !important;
+    font-weight: 400;
+    color: white;
+    line-height: 40px !important;
+}
+
+.View{
+    position: absolute;
+    margin-top: -50px;
+    right: 171px;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.Services-child-div p{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(154, 154, 154, 1);
+    line-height: 28px ;
+    max-width: 478px;
+    margin: 48px 0px 50px 40px;
+
+}
+
+.Services-top-div h2::before{
+    content: "";
+    position: absolute;
+    background-image: url('../image/STARS-1.svg');
+    width: 30px;
+    height: 30px;
+    margin: 0px 0px 0px 625px;
+}
+
+/* Our Reviews */
+
+@media (max-width:1200px) and (min-width:992px){
+    .Reviews-child-div img{
+        width: 900px !important;
+    }
+    .Reviews-child-div p{
+        margin-left: 320px !important;
+    }
+}
+@media (max-width:991px) and (min-width:768px){
+    .Reviews-child-div img{
+        width: 700px !important;
+    }
+    .Reviews-child-div p{
+        margin-top: -250px !important;
+        margin-left: 230px !important;
+    }
+}
+
+@media (max-width:767px) and (min-width:575px){
+    .Reviews-child-div img{
+        width: 550px !important;
+    }
+    .Reviews-child-div p{
+        margin-top: -200px !important;
+        margin-left: 190px !important;
+        max-width: 305px !important;
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width:575px) and (min-width:01px){
+    .Reviews-child-div img{
+        width: 310px !important;
+    }
+    .Reviews-child-div p{
+        margin-top: -145px !important;
+        margin-left: 110px !important;
+        max-width: 145px !important;
+        font-size: 10px !important;
+      
+        margin-left: 520px;
+        padding: 50px 0px 0px 0px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 10px !important;
+    }
+    .Reviews-main-div h2{
+    font-size: 60px !important;
+    line-height: 80px !important;
+}
+}
+
+.Reviews-sec{
+    background-color: rgba(47, 42, 39, 1);
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.Reviews-main-div h2{
+    font-family: "Clash Display";
+    font-size: 91px;
+    font-weight: 400;
+    color: white;
+    line-height: 109px;
+    z-index: 99;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    display: block;
+}
+
+.Reviews-main-div h2 span{
+    margin-right: 15px;
+    font-family: "Clash Display";
+    font-size: 30px !important;
+    font-weight: 400;
+    color: white;
+    line-height: 40px !important;
+}
+
+.Reviews-main-div p{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(154, 154, 154, 1);
+    line-height: 28px ;
+    max-width: 504px;
+   display: flex;
+   justify-content: center;
+   display: inline-block;
+   margin-bottom: 30px
+}
+
+.Reviews-child-div p{
+    position: absolute;
+    margin-top: -300px;
+    text-align:justify;
+    max-width: 385px;
+    margin-left: 520px;
+    padding: 50px 0px 0px 0px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 28px ;
+}
+
+/* Pricing-sec */
+
+
+@media (max-width:1200px) and (min-width:992px){
+    .Pricing{
+        position: absolute;
+        margin-top: -258px !important;
+        margin-left: 40px !important;
+    }
+    .Pricing ul li{
+        font-family: "Clash Display";
+        font-size: 12px !important;
+        font-weight: 500;
+        color: rgba(111, 78, 55, 1);
+        line-height: 28px;
+        padding: 5px 0px;
+    }
+}
+@media (max-width:991px) and (min-width:768px){
+    .Pricing1{
+        margin-bottom: 20px;
+    }
+    .Pricing{
+        position: absolute;
+        margin-top: -295px !important;
+        margin-left: 40px !important;
+    }
+    .Pricing ul li{
+        font-size: 12px !important;
+    }
+    .Pricing-top-div p{
+        margin-left: 200px !important;
+    }
+}
+
+@media (max-width:767px) and (min-width:575px){
+    .Pricing1{
+        margin-bottom: 20px;
+    }
+    .Pricing{
+        position: absolute;
+        margin-top: -370px !important;
+        margin-left: 100px !important;
+    }
+
+    .Pricing-top-div p{
+        margin-left: 50px !important;
+    }
+}
+
+@media (max-width:575px) and (min-width:01px){
+    .Pricing1{
+        margin-bottom: 20px;
+    }
+    .Pricing{
+        position: absolute;
+        margin-top: -270px !important;
+        margin-left: 30px !important;
+    }
+    .Pricing ul li{
+        font-size: 12px !important;
+    }
+    .Pricing-top-div p{
+        margin-left: 50px !important;
+    }
+    .Pricing span{
+        padding-bottom: 30px !important;
+    }
+    .Pricing-top-div h2{
+        font-size: 70px !important;
+    }
+    .line{
+        width: 100%;
+    }
+}
+
+.Pricing-sec{
+    background-color: rgba(47, 42, 39, 1);
+    padding: 100px 0px;
+}
+
+
+.Pricing{
+    position: absolute;
+    margin-top: -260px;
+    margin-left: 70px;
+}
+
+.Pricing ul li{
+    font-family: "Clash Display";
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(111, 78, 55, 1);
+    line-height: 28px;
+    padding: 5px 0px;
+}
+.Pricing1{
+    width: 100%;
+}
+
+.Pricing span{
+    display: block;
+    padding-bottom: 39px;
+    text-align: center;
+    font-family: "Clash Display";
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(111, 78, 55, 1);
+    line-height: 40px;
+}
+
+.Pricing-top-div h2{
+    font-family: "Clash Display";
+    font-size: 91px;
+    font-weight: 400;
+    color: white;
+    line-height: 109px;
+    z-index: 99;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    display: block;
+}
+
+.Pricing-top-div h2 span{
+    margin-right: 15px;
+    font-family: "Clash Display";
+    font-size: 30px !important;
+    font-weight: 400;
+    color: white;
+    line-height: 40px !important;
+}
+
+.Pricing-top-div p{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(154, 154, 154, 1);
+    line-height: 28px ;
+    max-width: 513px;
+    margin-left: 550px;
+}
+
+.Explore{
+    font-family: "Clash Display";
+    font-size: 30px !important;
+    font-weight: 400;
+    color: white;
+    line-height: 40px !important;
+    margin-left: 40px;
+    display: inline-block;
+}
+.Pricing-top-div{
+    padding-bottom: 91px;
+}
+
+
+.round{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: linear-gradient(to right, rgba(122, 50, 19, 1), rgba(229, 171, 115, 1));
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -70px 0px 0px 340px;
+    text-align: center;
+}
+
+.Pricing-top-div h2::before{
+    content: "";
+    position: absolute;
+    background-image: url('../image/STARS-1.svg');
+    width: 30px;
+    height: 30px;
+    margin: -10px 0px 0px 1020px;
+}
+
+
+
+
+
+
+
+/* Subscribe-sec */
+
+@media (max-width:1200px) and (min-width:992px){
+    .Subscribe-main-div input{
+        padding: 33px 302px 34px 43px !important;
+        margin-left: 300px;
+    }
+}
+@media (max-width:991px) and (min-width:768px){
+    .Subscribe-main-div input{
+        padding: 33px 250px 34px 33px !important;
+        margin-left: 100px !important;
+    }
+}
+
+@media (max-width:767px) and (min-width:575px){
+    .Subscribe-main-div input{
+        padding: 33px 200px 34px 33px !important;
+        margin-left: 0px !important;
+    }
+}
+
+@media (max-width:575px) and (min-width:01px){
+    .Subscribe-main-div input{
+        padding: 33px 100px 34px 23px !important;
+        margin-left: 0px !important;
+        margin-top: 281px !important;
+    }
+    .Subscribe-img{
+        bottom: 150px !important;
+    }
+    .Subscribe-main-div h2{
+        font-size: 50px !important;
+    }
+}
+
+.Subscribe-sec{
+    padding: 100px 0px 46px 0px;
+    position: relative;
+    margin-bottom: -17px;
+    background-color: rgba(47, 42, 39, 1);
+}
+
+.Subscribe-main-div h2{
+    float: right;
+    font-family: "Clash Display";
+    font-size: 91px;
+    font-weight: 400;
+    color: white;
+    line-height: 109px;
+    z-index: 99;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    display: inline-block;
+}
+
+.Subscribe-main-div h2 span{
+    margin-right: 15px;
+    font-family: "Clash Display";
+    font-size: 30px !important;
+    font-weight: 400;
+    color: white;
+    line-height: 40px !important;
+}
+
+.Subscribe-main-div p{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(154, 154, 154, 1);
+    line-height: 28px ;
+    max-width: 486px;
+    margin-top: 95px;
+    display: inline-block;
+}
+
+.Subscribe-main-div input{
+    background-color: transparent;
+    padding: 33px 402px 34px 63px;
+    border-radius: 50px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    margin-left: 300px;
+    margin-top: 81px;
+}
+
+.Subscribe-img{
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+}
+
+/* .Subscribe-main-div p::before{
+    content: "";
+    position: absolute;
+    background-image: url('../image/Vector.png');
+    width: 30px;
+    height: 30px;
+    margin: -10px 0px 0px 20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer-sec */
+
+.footer-sec{
+    background-color: rgba(47, 42, 39, 1);
+/* background-color: transparent !important; */
+    background-image: url('../image/footer.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0px 97px 0px;
+}
+
+.footer-main-div{
+    background-color: transparent !important;
+
+}
+
+.footer-child-div{
+    text-align: center;
+    background-color: transparent !important;
+}
+
+.footer-child{
+    text-align: right;
+}
+
+.footer-child2{
+    text-align: justify !important;
+}
+
+.footer-child-div ul li{
+    list-style: none;
+    padding: 8px 0px;
+}
+
+.footer-child-div ul li a{
+    text-decoration: none;
+    font-family: "Clash Display";
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    line-height: 28px;
+}
+
+.World{
+    font-family: "Clash Display";
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    color: white;
+    line-height: 20px !important;
+}
+
+.footer-child-div i{
+    color: rgba(166, 123, 91, 1);
+    font-size: 25px;
+    margin-right: 17px;
+}
